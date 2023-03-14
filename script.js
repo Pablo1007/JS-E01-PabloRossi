@@ -54,18 +54,18 @@ do{
         //INGRESO DE MONTO A INVERTIR
         do{ 
             monto = Number(prompt("Ingrese el monto a invertir"))
-            if(monto<0 || isNaN(monto)){
+            if(monto<=0 || isNaN(monto)){
                 alert("El monto ingresado no es correcto, intentelo nuevamente")
             }
-        }while(monto<0 || isNaN(monto))
+        }while(monto<=0 || isNaN(monto))
 
         //INGRESO DE TIEMPO A INVERTIR
         do{
             tiempo = Number(prompt("Ingrese la cantidad de meses a invertir"))
-            if(tiempo<0 || isNaN(tiempo)){
+            if(tiempo<=0 || isNaN(tiempo)){
                 alert("El monto ingresado no es correcto, intentelo nuevamente")
             }
-        }while(tiempo<0 || isNaN(tiempo))
+        }while(tiempo<=0 || isNaN(tiempo))
              
         // INGRESO DE OPCION DE BANCO
         do{
